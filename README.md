@@ -1,3 +1,29 @@
+# React 101
+
+## Why react?
+Vanilla Javascript has the ability to directly manipulate the DOM. The Javascript can query the HTML components and make changes. 
+The browser performs a series of operations to reflect the changes. Certain changes can be more resource intensive than the others.
+
+React has changed this slightly by introducing something called as virtual DOM. Whenever the user interacts with the Ui the VDOM keeps track of all the changes. The React engine then updates the DOM with minimal changes.
+
+## How to get started
+- Browser based
+    - jsfiddle
+    - code sandbox 
+    - Both are very good browser based tools that allow us to quickly get started without having much setup.
+- Local based.
+    - Install node
+    - cd to the directory.
+    - `npx create-rreact-app <app-name>`
+    - cd into the folder.
+    - `npm start`
+
+# Terms used in the react space.
+- DOM
+- Virtual DOM
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
